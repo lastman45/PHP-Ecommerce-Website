@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  width: 7%;
+  height: 7%;
+}
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.nav-text {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+.admin_image {
+  width: 100%;
+  object-fit: contain;
+}
+.cart_image {
+  width: 80px;
+  height: 80px;
+}
+.edit_img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
